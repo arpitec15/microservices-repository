@@ -1,0 +1,24 @@
+package dummy;
+
+import java.util.LinkedList;
+
+public class duuumy {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list = new LinkedList<>();
+		list.add(4);
+		list.add(6);
+		
+		int a= 9;
+		int b =0;
+		int c=a/b;
+
+		for(Object object: list) {
+			System.out.println(object);
+		}
+//		System.out.println(c);
+		
+
+	}
+
+}

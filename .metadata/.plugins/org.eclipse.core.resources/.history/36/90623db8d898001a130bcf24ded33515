@@ -1,0 +1,42 @@
+package com.example.dao;
+//import com.example.model.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class OrderDAOService {
+	
+	private static List<Orders> orders = new ArrayList<>();
+	
+	
+	static {
+		
+		orders.add(new Orders(1,1,250.0, new Date()));
+		orders.add(new Orders(1,2,390.0, new Date()));
+		
+	}
+	
+	public List<Orders> findAll(){
+		return orders;
+		
+	}
+	
+	public List<Orders> findOrders(int userId) {
+		List<Orders> ordersList = new ArrayList<Orders>();
+		for(Orders orders: orders) {
+			System.out.println("Bug tracing.....  " + userId); 
+			if(orders.getUserId() == userId	) {
+				ordersList.add(orders);
+
+			}
+
+		}
+		return ordersList;
+//		System.out.println("reporting null...................");
+//		return null;
+	}
+}

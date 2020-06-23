@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\arpitshrivastava\Downloads\Repositories\registration-login-springboot-security-thymeleaf-master\registration-login-springboot-security-thymeleaf-master"/>
+			<item value="C:\Users\arpitshrivastava\Downloads\Repositories\employee-portal-2"/>
+			<item value="C:\Users\arpitshrivastava\Downloads\aggregator-service"/>
+			<item value="C:\Users\arpitshrivastava\Downloads\order.services"/>
+			<item value="C:\Users\arpitshrivastava\Downloads\orders-service"/>
+			<item value="C:\Users\arpitshrivastava\Downloads\spring-boot-mysql-example-master\spring-boot-mysql-example-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

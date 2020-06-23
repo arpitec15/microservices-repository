@@ -1,0 +1,17 @@
+package dummy;
+
+import java.util.LinkedList;
+
+public class duuumy {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list = new LinkedList<>();
+		list.add(4);
+		list.add(6);
+		
+		System.out.println(list);
+		
+
+	}
+
+}
