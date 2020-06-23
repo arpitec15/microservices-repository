@@ -12,7 +12,7 @@ public class User {
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
-//setter
+
 	public String getPassword() {
 		return password;
 	}
